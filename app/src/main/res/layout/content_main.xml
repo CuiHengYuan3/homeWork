@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    >
+
+  <!--<ProgressBar-->
+      <!--android:layout_width="wrap_content"-->
+      <!--android:layout_height="wrap_content" -->
+      <!--android:layout_gravity="center_horizontal"-->
+      <!--android:id="@+id/progress"-->
+      <!--/>-->
+  <!---->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="下载"
+android:id="@+id/download"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/pause"
+    android:text="暂停"
+    android:layout_gravity="center_horizontal"
+    />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/cancel"
+    android:text="取消"
+    android:layout_gravity="center_horizontal"
+    />
+</android.support.v7.widget.LinearLayoutCompat>
